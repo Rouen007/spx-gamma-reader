@@ -1,0 +1,28 @@
+{
+  "record_id": "synthetic-observation-001",
+  "synthetic": true,
+  "mode": "observation",
+  "decision_at": "2026-10-09T10:05:00-04:00",
+  "evidence": [{
+    "id": "synthetic-bookmap-001",
+    "instrument": "ES",
+    "contract": "ESZ6",
+    "session_date": "2026-10-09",
+    "source": "synthetic",
+    "chart_type": "bookmap",
+    "evidence_at": "2026-10-09T10:03:00-04:00",
+    "received_at": "2026-10-09T10:04:00-04:00",
+    "settings": {"cvd": null},
+    "observations": ["下方流动性可见，单帧不能确认撤单或隐藏量"]
+  }],
+  "used_evidence_ids": ["synthetic-bookmap-001"],
+  "cross_instrument_alignment": "separate",
+  "cvd_comparisons": [],
+  "hypothesis": {
+    "state": "waiting",
+    "price_confirmation": "unknown",
+    "wait_conditions": ["需要连续成交与价格确认"],
+    "invalidation": null,
+    "first_target": null
+  }
+}
